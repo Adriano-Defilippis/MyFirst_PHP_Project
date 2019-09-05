@@ -53,23 +53,15 @@
   <h1>Ciao <?php echo $name; echo " "; echo $surname;  ?>!!</h1><br>
 
   <h2>PARAGRAFO ORIGINALE</h2>
-  <h3>Stringa ed operazioni importate da variabile php</h3>
-  <?php  
-    
-    echo $str_paragrhap; echo "<br>";
-    echo "Lunghezza Stringa: ";
-    echo $str_len;
 
-  ?>
+  <h3>Stringa ed operazioni importate da variabile php</h3>
+
+  <p> <?php echo $str_paragrhap?> (<?php echo $str_len ?>) </p>
+  
 
 <h2>PARAGRAFO MODIFICATO</h2>
 <h3>Stringa ed operazioni importate da variabile php</h3>
-  <?php  
-    
-    echo $str_rep; echo "<br>";
-    echo "Lunghezza Stringa: ";
-    echo strlen($str_rep);
 
-  ?>
+<p> <?php echo $str_rep?> (<?php echo strlen($str_rep); ?>) </p>
   </body>
 </html>
